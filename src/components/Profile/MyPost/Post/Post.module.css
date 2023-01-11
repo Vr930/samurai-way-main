@@ -1,0 +1,16 @@
+.main {
+    display: flex;
+    border: 1px solid black;
+    margin-bottom: 5px;
+}
+
+.main img {
+    width: 100px;
+    border-radius: 20px;
+    margin-right: 20px;
+}
+
+.span {
+    display: flex;
+    align-items: center;
+}

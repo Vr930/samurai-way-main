@@ -1,0 +1,16 @@
+.header{
+    margin-top: 10px;
+    grid-area: header;
+    background: rgb(231, 200, 122);
+}
+.header img{
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    margin-top: 8px;
+    margin-left: 10px;
+}
+.header__span{
+    font-family: cursive;
+    color: #000000;
+}

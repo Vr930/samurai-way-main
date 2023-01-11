@@ -1,0 +1,15 @@
+.navbar{
+    grid-area: navBar;
+    background: burlywood;
+}
+a{
+    margin-left: 15px;
+    color: #3262a5;
+    text-decoration: none;
+}
+.item {
+
+}
+.item.active{
+
+}
