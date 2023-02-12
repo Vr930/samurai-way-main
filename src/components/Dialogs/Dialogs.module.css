@@ -1,3 +1,77 @@
 .main {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    font-family: "Microsoft New Tai Lue";
+    font-size: 20px;
+}
 
+.dialogs {
+    display: flex;
+    flex-direction: column;
+    background-color: #303031;
+    width: 300px;
+    height: 540px;
+    color: #282c34;
+    align-items: center;
+}
+
+.user {
+    background-color: #e8b58b;
+    height: 50px;
+    border-radius: 20px;
+    margin: 20px 0px;
+    display: flex;
+    width: 200px;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+}
+
+.user:hover {
+    background-color: #ec944d;
+}
+
+.user img {
+    width: 50px;
+    border-radius: 25px;
+}
+
+.name {
+
+}
+
+.messagesEnter {
+
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+}
+.messages{
+    flex: 1 1 auto;
+}
+.enter{
+display: flex;
+}
+.enter textarea{
+    height: 20px;
+    width: 70%;
+    border-radius: 30px;
+    padding: 5px 15px;
+}
+.enter button{
+    margin-left: 30px;
+    width: 70px;
+    border-radius: 20px;
+    background: #ec944d;
+    border: 2px solid #ec944d;
+    cursor: pointer;
+}
+.enter button:hover{
+    margin-left: 30px;
+    width: 80px;
+    border-radius: 20px;
+    background: #efb383;
+    border: 2px solid #ec944d;
+    cursor: pointer;
 }

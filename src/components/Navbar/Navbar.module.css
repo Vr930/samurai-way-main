@@ -1,15 +1,25 @@
-.navbar{
+.navbar {
+    border-top: 1px solid black;
     grid-area: navBar;
-    background: burlywood;
+    background: rgb(252, 152, 1);
+    padding-top: 20px;
 }
-a{
+
+a {
+    font-family: cursive;
+    font-size: 20px;
     margin-left: 15px;
-    color: #3262a5;
+    color: #303031;
     text-decoration: none;
 }
-.item {
 
+a:hover{
+    font-family: cursive;
+    font-size: 20px;
+    margin-left: 15px;
+    color: wheat;
+    text-decoration: none;
 }
-.item.active{
-
+a.active{
+    color: wheat;
 }

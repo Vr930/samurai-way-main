@@ -1,55 +1,56 @@
-.wrapper{
-background: url("https://img.freepik.com/free-photo/top-view-festive-christmas-ornaments-arrangement-with-copy-space_23-2149136175.jpg?w=740&t=st=1673207345~exp=1673207945~hmac=3f628b926415c43c296753835847c4ba969d43c2241166512223f369287a0529")
-  0 0/100% auto;
-  min-height: 800px;
+.wrapper {
+    background: #303031;
+    background-size: 100%;
+    min-height: 850px;
 }
+
 .app-wrapper {
-  margin-top: 20px;
-  width: 1000px;
-  margin: 0 auto;
-  display: grid;
-  grid-auto-rows: 90px 1fr;
-  grid-auto-columns: 2fr 10fr;
-  grid-gap: 10px;
-  grid-template-areas: "header header"
+    padding-top: 40px;
+    width: 1000px;
+    margin: 0 auto;
+    display: grid;
+    grid-auto-rows: 90px 1fr;
+    grid-auto-columns: 2fr 10fr;
+    grid-template-areas: "header header"
                         "navBar content";
 }
-.app-wrapper-content{
-  grid-area: content;
-  background: #d7c1b3;
-  min-height: 600px;
+
+.app-wrapper-content {
+    grid-area: content;
+    background: #d7c1b3;
+    min-height: 600px;
 }
+
 .App-logo {
-  height: 40vmin;
-  pointer-events: none;
+    height: 40vmin;
+    pointer-events: none;
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+    .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+    }
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
 }
 
 .App-link {
-  color: #61dafb;
+    color: #61dafb;
 }
 
 @keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
 }

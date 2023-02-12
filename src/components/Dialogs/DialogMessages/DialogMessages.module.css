@@ -1,0 +1,41 @@
+
+.messages {
+    display: flex;
+    margin-bottom: 10px;
+}
+.messages__Revers{
+    display: flex;
+    margin-bottom: 10px;
+    flex-direction: row-reverse;
+}
+.DialogImg{
+    width: 55px;
+    border-radius: 30px;
+    align-self: flex-end;
+}
+.messages__Text{
+    padding: 10px 20px 10px 20px;
+    color: white;
+    background: #303032;
+    align-self: flex-end;
+    border-radius: 15px 15px 15px 0;
+}
+.messages__Text__Revers{
+    padding: 10px 20px 10px 20px;
+    color: white;
+    background: #303032;
+    align-self: flex-end;
+    border-radius: 15px 15px 0px 15px;
+}
+.angle__Message{
+    background: radial-gradient(circle at 0 0,transparent 20px,#303032 0);
+    height: 20px;
+    width: 20px;
+    align-self: flex-end;
+}
+.angle__Message__Revers{
+    background: radial-gradient(circle at 100% 0%,transparent 20px,#303032 0);
+    height: 20px;
+    width: 20px;
+    align-self: flex-end;
+}

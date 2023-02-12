@@ -1,0 +1,18 @@
+.main {
+    max-width: 600px;
+    margin: 0 auto;
+}
+.textarea{
+    margin-bottom: 20px;
+}
+.button{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.button button{
+    background-color: rgb(250, 151, 2);
+}
+.button button:hover{
+    background-color: rgb(255, 227, 180);
+    cursor: pointer;
+}

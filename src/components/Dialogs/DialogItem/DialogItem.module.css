@@ -1,0 +1,21 @@
+
+.user {
+    background-color: #e8b58b;
+    height: 50px;
+    border-radius: 20px;
+    margin: 20px 0px;
+    display: flex;
+    width: 200px;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+}
+
+.user:hover {
+    background-color: #ec944d;
+}
+
+.user img {
+    width: 50px;
+    border-radius: 25px;
+}
